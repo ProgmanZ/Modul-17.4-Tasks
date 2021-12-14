@@ -13,5 +13,8 @@ print('b =', b)
 
 print('part a =', list_n[:a])
 print('part b =', list_n[b:])
-list_n = list_n[:a] + list_n[a:]
+
+list_n = list_n[:a] + list_n[b:]
+
 print('New list_n = ', list_n)
+
